@@ -21,7 +21,7 @@
                 selected
               @endif
 
-            >{{ $tag -> name }}</option>
+            >#{{ $tag -> name }}</option>
 
         @endforeach
 

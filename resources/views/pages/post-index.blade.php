@@ -24,7 +24,7 @@
                   <a href="{{ route('post.remove.tag', [$post -> id, $tag -> id]) }}">X</a>
                 @endif
               @endauth
-              [{{ $tag -> id }}] {{ $tag -> name }}
+                  #{{ $tag -> name }}
 
             </li>
 
